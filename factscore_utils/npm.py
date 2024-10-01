@@ -4,8 +4,8 @@ import time
 from collections import defaultdict
 from transformers import AutoModelForMaskedLM, AutoTokenizer
 
-from factscore.lm import LM
-from factscore.retrieval import Retrieval
+from factscore_utils.lm import LM
+from factscore_utils.retrieval import Retrieval
 
 def softmax(x):
     return(np.exp(x - np.max(x)) / np.exp(x - np.max(x)).sum())
