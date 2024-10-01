@@ -1,4 +1,4 @@
-from factscore.lm import LM
+from factscore_utils.lm import LM
 import openai
 import sys
 import time
