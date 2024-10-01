@@ -6,12 +6,12 @@ import os
 import logging
 
 from tqdm import tqdm
-from factscore.abstain_detection import is_response_abstained
-from factscore.atomic_facts import AtomicFactGenerator
-from factscore.clm import CLM
-from factscore.npm import NPM
-from factscore.openai_lm import OpenAIModel
-from factscore.retrieval import DocDB, Retrieval
+from factscore_utils.abstain_detection import is_response_abstained
+from factscore_utils.atomic_facts import AtomicFactGenerator
+from factscore_utils.clm import CLM
+from factscore_utils.npm import NPM
+from factscore_utils.openai_lm import OpenAIModel
+from factscore_utils.retrieval import DocDB, Retrieval
 
 class FactScorer(object):
 
