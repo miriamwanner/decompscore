@@ -6,7 +6,7 @@ import os
 import logging
 
 from tqdm import tqdm
-from factscore.factscorer import FactScorer
+from factscore_utils.factscorer import FactScorer
 from split_paragraph import split_paragraph
 
 
