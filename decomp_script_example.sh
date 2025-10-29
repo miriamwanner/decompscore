@@ -2,9 +2,9 @@
 
 export FILENAME=Alpaca-65B
 
-export PATH_TO_ENV=/home/mwanner5/miniconda3/envs/factscore/bin
-export PATH_TO_HOME=/brtx/602-nvme1/mwanner5
-export PYTHONPATH=${PATH_TO_HOME}/decontext-decomp
+export PATH_TO_ENV=envs/factscore/bin
+export PATH_TO_HOME=~/
+export PYTHONPATH=factscore_utils
 
 ${PATH_TO_ENV}/python ${PYTHONPATH}/decomp/decompose_prompt.py \
                 --input_path ${PYTHONPATH}/data/decontext-then-decomp/${FILENAME}_decontext_then_decomp.jsonl \
